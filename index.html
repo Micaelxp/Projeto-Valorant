@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Valorant - Shexp </title>
+    <link rel="shortcut icon" href="src/imagens/Icone.Valorant.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="src/imagens/Logo-vav.png" alt="Logo Valorant">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="Raze" data-name="Raze" data-description="Raze chega do Brasil com uma explosão de carisma e armas enormes. Com seu estilo de jogo porradeiro, ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM">
+            <img
+              src="src/imagens/Card.raze.png"
+              alt="Personagem Raze"
+            />
+          </li>
+          <li class="personagem" id="Fenix" data-name="Fenix" data-description="Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.">
+            <img
+              src="src/imagens/Card.fenix.png"
+              alt="Personagem Fenix"
+            />
+          </li>
+
+          <li class="personagem" id="Sova" data-name="Sova" data-description="Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.">
+            <img
+              src="src/imagens/sova.card.png"
+              alt="Personagem Sova"
+            />
+          </li>
+
+          <li class="personagem" id="Yoru" data-name="Yoru" data-description="Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.">
+            <img
+              src="src/imagens/Yoru.card.png"
+              alt="Personagem Yoru"
+            />
+          </li>
+
+          <li class="personagem" id="Omen" data-name="Omen" data-description="Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque.">
+            <img
+              src="src/imagens/omen.card.png"
+              alt="Omen"
+            />
+          </li>
+
+          <li class="personagem" id="Gekko" data-name="Gekko" data-description="Gekko, de Los Angeles, lidera um grupo muito unido de criaturas caóticas. Seus amigos atropelam tudo, tirando os inimigos do caminho. Depois, Gekko corre atrás deles para reagrupá-los e reiniciar o processo.">
+            <img
+              src="src/imagens/gekko.card.png"
+              alt=" Personagem Gekko"
+            />
+          </li>
+
+          <li class="personagem" id="Killjoy" data-name="Killjoy" data-description="Killjoy, uma alemã genial, defende posições-chave no campo de batalha facilmente com seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs darão conta do recado.">
+            <img
+              src="src/imagens/Killjoy.card.png"
+              alt="Personagem Killjoy"
+            />
+          </li>
+
+          <li class="personagem" id="Brimstone" data-name="Brimstone" data-description="Vindo diretamente dos EUA, o arsenal orbital do Brimstone garante que o esquadrão dele sempre esteja em vantagem. Sua capacidade de oferecer utilitários com precisão e segurança faz dele um comandante inigualável na linha de frente.">
+            <img
+              src="src/imagens/Brimstone.card.png"
+              alt="personagem Brimstone"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="src/imagens/Raze.Valorant.png"
+          alt="Personagem Selecionado"
+          />
+        
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Raze</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Raze chega do Brasil com uma explosão de carisma e armas enormes. Com seu estilo de jogo porradeiro, ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de "BUUUM"
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
